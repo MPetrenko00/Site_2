@@ -29,8 +29,15 @@ $breakpoint-xxl: 1920px;
 
 $main-radis: 8px;
 
+
 @mixin gradient-text {
 	background: $gradient-red-text;
 	color: transparent;
 	background-clip: text;
+}
+
+.main-title {
+	@include gradient-text;
+	color: transparent;
+	background-clip: text; 
 }
