@@ -1,29 +1,28 @@
-.section__cards {
-    fill: $gradient-red-text;
-}
+.section {
+    &__cards-tab{
+        font-size: 0;
+    }
 
-.cards {
-    font-size: 0;
-}
+    &__card{
+        display: inline-block;
+        font-size: 16px;
+        width: 400px;
+        padding: 10px;
+    }
 
-.card {
-    display: inline-block;
-    font-size: 16px;
-    width: 400px;
-    padding: 10px;
-}
+    &__card-item{
+        padding: 3px;
+    }
 
-.card__item {
-    padding: 3px;
-}
+    &__card-icon {
+        height: 64px;
+        width: 64px;
+    
+    }
 
-.card__icon {
-    height: 64px;
-    width: 64px;
 
-}
-
-.card__icon svg {
-    display: block;
-    right: 0;
+    &__card-icon svg {
+        display: block;
+        right: 0;
+    }
 }
